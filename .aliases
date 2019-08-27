@@ -1,0 +1,12 @@
+alias vim=nvim \
+	lsa="ls -a" \
+	ll="ls -la" \
+	sl="ls" \
+	diff="diff --color=auto" \
+	grep="grep --color=auto" \
+	ccat="highlight --out-format=ansi" \
+	ls="ls --color=auto" \
+	ssp="systemctl suspend" \
+	fgrep="fgrep --color=auto" \
+	egrep="egrep --color=auto" \
+	config="git --git-dir='$HOME/.dotfiles/' --work-tree=$HOME" \
