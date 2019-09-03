@@ -10,3 +10,4 @@ alias vim=nvim \
 	fgrep="fgrep --color=auto" \
 	egrep="egrep --color=auto" \
 	config="git --git-dir='$HOME/.dotfiles/' --work-tree=$HOME" \
+	count="ls |wc -l" \
