@@ -10,6 +10,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
+Plug 'mattn/emmet-vim'
 " Plug 'tmhedberg/SimpylFold'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
@@ -22,6 +23,11 @@ set ignorecase
 set smartcase
 set encoding=utf-8
 
+" Set emmet trigger key
+	let g:user_emmet_leader_key=','
+
+" Tab length exceptions on html files
+	" autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 " Tab handling
 	set tabstop=4
