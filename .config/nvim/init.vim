@@ -11,6 +11,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
+Plug 'mkitt/tabline.vim'
 " Plug 'tmhedberg/SimpylFold'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
@@ -22,6 +23,19 @@ set incsearch
 set ignorecase
 set smartcase
 set encoding=utf-8
+
+
+" Bindings for switching tabs
+	map <leader>1 1gt
+	map <leader>2 2gt
+	map <leader>3 3gt
+	map <leader>4 4gt
+	map <leader>5 5gt
+	map <leader>6 6gt
+	map <leader>7 7gt
+	map <leader>8 8gt
+	map <leader>9 9gt
+	map <leader>0 :tablast<CR>
 
 " Set emmet trigger key
 	let g:user_emmet_leader_key=','
