@@ -22,6 +22,16 @@ set ignorecase
 set smartcase
 set encoding=utf-8
 
+
+" Tab handling
+	set tabstop=4
+	set softtabstop=4
+	set shiftwidth=4
+
+" Run black everytime python files are saved
+	" autocmd BufWritePost *py, !black %
+	" autocmd BufWritePost *py, :e
+
 " Enables autocompletion:
 	set wildmode=longest,list,full
 
@@ -30,6 +40,8 @@ set encoding=utf-8
 
 " Run xrdb whenever Xdefaults or Xresources are update.
 	autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
+
+
 
 " Shortcutting split navigation, saving a keypress:
 	map <S-j> <C-w>j

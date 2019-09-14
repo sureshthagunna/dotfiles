@@ -53,7 +53,6 @@ URxvt.keyboard-select.clipboard: True
 !! url select
 URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.url-select.underline: true
-! Pattern like duckduckgo.com
 
 !! font size
 URxvt.keysym.C-Up:     font-size:increase
