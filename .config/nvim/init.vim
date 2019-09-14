@@ -10,6 +10,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
+Plug 'Chiel92/vim-autoformat'
+Plug 'valloric/MatchTagAlways'
 Plug 'mattn/emmet-vim'
 Plug 'mkitt/tabline.vim'
 " Plug 'tmhedberg/SimpylFold'
@@ -24,6 +26,7 @@ set ignorecase
 set smartcase
 set encoding=utf-8
 
+" map <leader><shift-1> tabm 1
 
 " Bindings for switching tabs
 	map <leader>1 1gt
