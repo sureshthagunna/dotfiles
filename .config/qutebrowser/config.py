@@ -6,6 +6,18 @@
 # Uncomment this to still load settings configured via autoconfig.yml
 # config.load_autoconfig()
 
+## Bindings for navigating or focusing tabs
+config.bind(',1', 'tab-focus 1')
+config.bind(',2', 'tab-focus 2')
+config.bind(',3', 'tab-focus 3')
+config.bind(',4', 'tab-focus 4')
+config.bind(',5', 'tab-focus 5')
+config.bind(',6', 'tab-focus 6')
+config.bind(',7', 'tab-focus 7')
+config.bind(',8', 'tab-focus 8')
+config.bind(',9', 'tab-focus 9')
+config.bind(',0', 'tab-focus -1') # focus on the last available tab
+
 # Enable JavaScript.
 # Type: Bool
 config.set('content.javascript.enabled', True, 'file://*')
