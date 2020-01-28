@@ -11,3 +11,4 @@ alias vim=nvim \
 	egrep="egrep --color=auto" \
 	config="git --git-dir='$HOME/.dotfiles/' --work-tree=$HOME" \
 	count="ls |wc -l" \
+	v="pactl set-sink-volume" \
