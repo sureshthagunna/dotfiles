@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+HISTCONTROL=ignorespace
 HISTSIZE= HISTFILESIZE= # Infinite history.
 
 shopt -s autocd #Allows you to cd into directory merely by typing the directory name.
