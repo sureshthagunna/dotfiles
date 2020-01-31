@@ -7,6 +7,9 @@
 
 ################################################
 
+##function to jump to a switch section of man pages
+function manswitch () { man $1 | less -p "^ +$2"; }
+
 ##history settings
 #don't write commands with space infront to history file
 HISTCONTROL=ignorespace
