@@ -18,6 +18,16 @@ config.bind(',8', 'tab-focus 8')
 config.bind(',9', 'tab-focus 9')
 config.bind(',0', 'tab-focus -1') # focus on the last available tab
 
+## Addressbar searchengine
+c.url.searchengines = {'DEFAULT': 'https:/duckduckgo.com/?q={}',
+        'y': 'https://youtube.com/results?search_query={}',
+        'g': 'https://google.com/search?q={}',
+        }
+
+# Open root url of a search engine if no parameters
+c.url.open_base_url = True
+
+
 # Enable JavaScript.
 # Type: Bool
 config.set('content.javascript.enabled', True, 'file://*')
