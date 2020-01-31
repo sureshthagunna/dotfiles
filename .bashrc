@@ -7,6 +7,11 @@
 
 ################################################
 
+##ibus vars
+export GTK_IM_MODULE="ibus"
+export XMODIFIERS=@im="ibus"
+export QT_IM_MODULE="ibus"
+
 ##function to jump to a switch section of man pages
 function manswitch () { man $1 | less -p "^ +$2"; }
 
