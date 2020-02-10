@@ -158,7 +158,7 @@ bindsym $mod+r mode "resize"
 bar {
 		position bottom
         status_command i3status
-		status_command exec ~/.config/i3status/net-speed.sh
+		status_command exec /usr/share/doc/i3status/contrib/net-speed.sh
 }
 
 ########################################
